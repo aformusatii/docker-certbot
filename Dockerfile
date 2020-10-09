@@ -25,7 +25,7 @@ ENTRYPOINT [ \
   "--logs-dir", \
   "/opt/certs/", \
   "--config-dir", \
-  "/opt/certs/out" \
+  "/opt/certs/out", \
   "--agree-tos", \
   "--preferred-challenges=dns" \
 ]
