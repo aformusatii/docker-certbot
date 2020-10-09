@@ -1,0 +1,4 @@
+out/
+*.log
+generate.sh
+cloudflare.ini
