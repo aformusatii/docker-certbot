@@ -18,10 +18,14 @@ ENTRYPOINT [ \
   "-v", \
   "--no-self-upgrade", \ 
   "--dns-cloudflare", \
-  "--dns-cloudflare-credentials /opt/certs/cloudflare.ini", \ 
-  "--work-dir /opt/certs/", \
-  "--logs-dir /opt/certs/", \
-  "--config-dir /opt/certs/out", \
+  "--dns-cloudflare-credentials", \
+  "/opt/certs/cloudflare.ini", \ 
+  "--work-dir", \
+  "/opt/certs/", \
+  "--logs-dir", \
+  "/opt/certs/", \
+  "--config-dir", \
+  "/opt/certs/out" \
   "--agree-tos", \
   "--preferred-challenges=dns" \
 ]
